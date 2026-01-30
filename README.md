@@ -14,12 +14,13 @@ In this project, you will find advanced SQL queries for financial reporting, and
 
 ## 📁 Project Structure
 
-```text
+```sh
 controle-icms/
 ├── docs/           # Technical documentation and references
 ├── sql/            # SQL scripts (Schema, Inserts, and Queries)
 ├── screenshots/    # Visual evidence of database execution
 └── README.md       # Project documentation
+```
 
 ## Project Initialization
 
@@ -27,8 +28,6 @@ controle-icms/
 
 Clone the project by executing:
 
-
-```
 ```sh
 git clone [https://github.com/SEU_USUARIO/controle-icms.git]
 ```
