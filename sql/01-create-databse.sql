@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS icms_control;
+
+CREATE DATABASE icms_control
+DEFAULT CHARACTER SET utf8mb4
+DEFAULT COLLATE utf8mb4_unicode_ci;
