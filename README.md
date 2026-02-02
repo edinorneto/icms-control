@@ -19,7 +19,7 @@ In this project, you will find advanced SQL queries for financial reporting, and
 ## 📁 Project Structure
 
 ```sh
-controle-icms/
+icms-control/
 ├── docs/           # Technical documentation (diagrams and references)
 ├── sql/            # Source code for Database (DDL scripts 01, 02, 03)
 ├── screenshots/    # Evidence of execution and database schemas
@@ -33,12 +33,12 @@ controle-icms/
 Clone the project by executing:
 
 ```sh
-git clone [https://github.com/SEU_USUARIO/controle-icms.git]
+git clone [https://github.com/SEU_USUARIO/icms-control.git]
 ```
 Access the project folder:
 
 ```sh
-cd controle-icms
+cd icms-control
 ```
 Database Setup
 To set up the database environment, follow the execution order of the scripts located in the sql/ folder:
