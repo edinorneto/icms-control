@@ -44,7 +44,7 @@ Database Setup
 To set up the database environment, follow the execution order of the scripts located in the sql/ folder:
 
 ```sh
-1. **Create Database:** Run `sql/01-create-databse.sql` to initialize the `icms_control` schema and configure UTF-8 encoding.
+1. **Create Database:** Run `sql/01-create-database.sql` to initialize the `icms_control` schema and configure UTF-8 encoding.
 ```
 ```sh
 2. **Create Suppliers Table:** Run `sql/02-create-table-fornecedores.sql` to generate the structure for suppliers with constraints and ENUM types.
