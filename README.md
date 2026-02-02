@@ -1,5 +1,8 @@
 # 📊 ICMS Control System
 
+```markdown
+> **Note:** This project uses **synthetic data** (fictional CNPJs and values) generated for simulation purposes only. No real fiscal data is stored.
+
 This project focuses on the development of a relational database structure designed to handle fiscal data, specifically focusing on invoice management and ICMS tax calculations. 
 
 The goal is to simulate a real-world fiscal environment, managing suppliers and automating the calculation of tax credits and liabilities based on normalized data modeling.
@@ -16,9 +19,9 @@ In this project, you will find advanced SQL queries for financial reporting, and
 
 ```sh
 controle-icms/
-├── docs/           # Technical documentation and references
-├── sql/            # SQL scripts (Schema, Inserts, and Queries)
-├── screenshots/    # Visual evidence of database execution
+├── docs/           # Technical documentation (diagrams and references)
+├── sql/            # Source code for Database (DDL scripts 01, 02, 03)
+├── screenshots/    # Evidence of execution and database schemas
 └── README.md       # Project documentation
 ```
 
@@ -40,15 +43,16 @@ Database Setup
 To set up the database environment, follow the execution order of the scripts located in the sql/ folder:
 
 ```sh
-Create Database: Run sql/01-criar-banco.sql to initialize the controle_icms schema.
+1. **Create Database:** Run `sql/01-create-databse.sql` to initialize the `icms_control` schema and configure UTF-8 encoding.
 ```
-
 ```sh
-Create Tables: Run sql/02-criar-tabelas.sql to generate the structure for Suppliers, Invoices, and Tax Summaries.
+2. **Create Suppliers Table:** Run `sql/02-create-table-fornecedores.sql` to generate the structure for suppliers with constraints and ENUM types.
 ```
-
 ```sh
-Data Population: Run sql/03-inserir-dados-teste.sql to populate the tables with realistic test data.
+3. **Create Invoices Table:** Run `sql/03-create-table-notas_fiscais.sql` to create the invoices table with decimal precision for financial calculations.
+```
+```sh
+4. **Data Population (Coming Soon):** *The script for inserting fictional test data (mock data) will be added in the next step.*
 ```
 
 📊 SQL Features & Analysis
