@@ -9,6 +9,6 @@ CREATE TABLE fornecedores (
     contribuinte_icms ENUM('Sim', 'Não') NOT NULL DEFAULT 'Sim' COMMENT 'Contribuinte de ICMS?',
     email VARCHAR(254) COMMENT 'E-mail de contato',
     telefone VARCHAR(16) COMMENT 'Telefone de contato',
-    data_cadastro DATE NOT NULL COMMENT 'Data de cadastro do fornecedor',
+    data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT 'Data de cadastro do fornecedor',
     ativo ENUM('Sim', 'Não') NOT NULL DEFAULT 'Sim' COMMENT 'Fornecedor ativo?'
-) DEFAULT CHARSET = utf8mb4 COMMENT = 'Cadastro de fornecedores';
+)  DEFAULT CHARSET = utf8mb4, DEFAULT COLLATE = utf8mb4_unicode_ci COMMENT = 'Cadastro de fornecedores';
