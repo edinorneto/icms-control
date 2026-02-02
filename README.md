@@ -28,7 +28,7 @@ controle-icms/
 
 ## Project Initialization
 
-# Step by Step
+### Step by Step
 
 Clone the project by executing:
 
