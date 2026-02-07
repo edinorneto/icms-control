@@ -55,6 +55,7 @@ To set up the database environment, run the scripts in order:
 6. **Insert Invoices:** `sql/06-insert-notas_fiscais.sql`
 
 📊 SQL Features & Analysis
+
 The project includes several analytical queries to provide business insights:
 
 Total ICMS Credit: Calculation per supplier for tax reconciliation.
