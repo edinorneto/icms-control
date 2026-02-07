@@ -26,6 +26,12 @@ icms-control/
 └── README.md       # Project documentation
 ```
 
+## 🧩 Database Diagram
+
+This diagram represents the current relational model (suppliers and invoices) used in the project.
+
+![ERD](docs/erd.png)
+
 ## Project Initialization
 
 ### Step by Step
