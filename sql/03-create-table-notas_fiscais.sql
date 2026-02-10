@@ -13,4 +13,4 @@ CREATE TABLE notas_fiscais (
     situacao ENUM('Pendente', 'Conferida', 'Escriturada', 'Cancelada') DEFAULT 'Pendente' COMMENT 'Status da nota',
     observacoes TEXT COMMENT 'Observações gerais, informações destinadas ao Fisco',
     data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT 'Data/hora de registro no sistema'
-) DEFAULT CHARSET = utf8mb4, DEFAULT COLLATE = utf8mb4_unicode_ci COMMENT = 'Notas fiscais de entrada';
+) DEFAULT CHARSET = utf8mb4, DEFAULT COLLATE = utf8mb4_unicode_ci COMMENT 'Notas fiscais de entrada';
