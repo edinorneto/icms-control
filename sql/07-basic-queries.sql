@@ -10,7 +10,7 @@ SELECT numero_nf, cnpj_fornecedor, valor_total_nf, data_emissao FROM notas_fisca
 WHERE year(data_emissao) = 2026 AND month(data_emissao) = 01
 ORDER BY numero_nf;
 
--- Contagem de quantos sao contribuitens do ICMS
+-- Contagem de quantos sao contribuintes do ICMS
 SELECT contribuinte_icms, count(*) AS quantidade FROM fornecedores
 group by contribuinte_icms;
 
@@ -44,7 +44,7 @@ SELECT id, cnpj, nome_fantasia, ativo FROM fornecedores
 WHERE ativo = 'Sim'
 ORDER BY id;
 
--- Chaves de acesso únicas
+-- Chaves de acesso unicas
 SELECT DISTINCT chave_acesso
 FROM notas_fiscais
 WHERE chave_acesso IS NOT NULL;

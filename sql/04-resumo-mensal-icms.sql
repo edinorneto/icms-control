@@ -9,4 +9,4 @@ CREATE TABLE resumo_mensal_icms(
     media_aliquota DECIMAL(5,2) UNSIGNED COMMENT 'Alíquota média de ICMS do período (%)',
     data_fechamento DATE COMMENT 'Data de fechamento/apuração do mês',
     status_apuracao ENUM('Conferido', 'Pendente') DEFAULT 'Pendente' COMMENT 'Status da apuração mensal'
-) DEFAULT CHARSET = utf8mb4, DEFAULT COLLATE = utf8mb4_unicode_ci COMMENT = 'Resumo mensal de apuração de ICMS';
+) DEFAULT CHARSET = utf8mb4, DEFAULT COLLATE = utf8mb4_unicode_ci COMMENT 'Resumo mensal de apuração de ICMS';
